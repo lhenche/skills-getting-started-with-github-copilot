@@ -88,7 +88,7 @@ section h3 {
 }
 
 .participants-list {
-  list-style: disc;
+  list-style: none;
   margin: 0 0 0 20px;
   padding: 0;
 }
@@ -97,6 +97,19 @@ section h3 {
   padding: 4px 0;
   font-size: 14px;
   color: #333;
+}
+
+/* Layout for participant and delete icon */
+.participant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-delete {
+  margin-left: 12px;
+  color: #c62828;
+  font-size: 16px;
 }
 
 /* Muted text for empty state */
